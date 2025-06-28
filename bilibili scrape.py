@@ -4,9 +4,11 @@ from urllib3.util import Retry
 from requests.adapters import HTTPAdapter
 
 # ★ 请替换 ↓
-BVID        = "BV19sCpYTEWS"
-HEADERS     = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"}
-COOKIES     = {"SESSDATA": "b6df1a89%2C1765109083%2C0c1ed%2A61CjAi4m7i50EEYEWRzH9GCDTfLKL_5rzzxG6Yme_J5NWpwouLBa52JqZb2Vule9D4NGkSVjBXanNNNHdlMlp6b0lEMENFQjFZYXpsQlRYS2Nic29SZzc2bXNydUZpY21HVEkxb3hjNTJCVXpKcFFIYUNWRXVhZVFnUVNlekFXYndOSGs5OXpZckVRIIEC", "buvid3": "4C04BFED-22B8-1762-C192-4C6C3F97B92656278infoc", "bili_jct": "f7d79a1deb1a08fe33093722ed938286"}
+BVID        = "..."
+HEADERS     = {"User-Agent": "..."}
+COOKIES     = {"SESSDATA": "...", 
+               "buvid3": "...", 
+               "bili_jct": "..."}
 
 session = requests.Session()
 session.headers.update(HEADERS)
